@@ -3,11 +3,11 @@ php:
 - 7.2
 before_script:
 #- composer install
-script: echo 'none'
-deploy:
-  provider: heroku
-  app: curso-cefire-github
-  on: master
-  skip_cleanup: true
-  api_key:
-    secure: eiwieskrpT+NoSUhoZRQmGkuidvL9gqbDFgb9K/djflfIiLJdRQowCwFvsWdAttGOQHMajP8cBpOhwB6OeT0pG+Vr9JhubHhmcNQYRLjT2rbgCOwDE4WyEx2hvOHC6iDBRgP9dyZNNKXXv1v0Yk0MRVLXHmaw1ytWA7YNWqFX58SXvtGSZhWcsuBfz3i0mUv7qOIceacRfjAB9qBtqbQJ8z+r2GlxEI+2XUSl+AZT/caYzlV1kEtgZ2JIXDcl4f74GAz3VGahI4X3D1seoNDF9Rktmz/HG6c7s3EYKWSm4K5FPSpt/Fy9LO9lpf58GBzM+XS2Mm6IlkTFoSnaIktfeM4voxnhu3Fcft0gITfblmg83VmXu+HhkSbTSJ22qo4uJE+zHf/cTGMJ8Ee1BFCEkEmTIxB+1tYj/Kwm4s3XpAGqBafMtE/U62LC4RNICw3Rq8ZcM6F5yeo6ccihqfF51V8RF+pMC0iBmQ3gZcVHnPBD+rYjgYGfElY0wDozAVOmv3gqstXVW4mRvz+sECECazaA/CiHQr5uOTbQP6gULpmny+kMta7neu+oshSZx4OwlXHFgyMOzjxvToXJ01GF5+usgkWAuCmBgHGYtl2UcmftbyA6dVprXesxa/Vutpodj0yITAPpvjRYqcSIyl1BIcAWyTOs90FEe3PvVbU/Xw=
+#script: echo 'none'
+#deploy:
+  #provider: heroku
+  #app: curso-cefire-github
+  #on: master
+  #skip_cleanup: true
+  #api_key:
+   # secure: eiwieskrpT+NoSUhoZRQmGkuidvL9gqbDFgb9K/djflfIiLJdRQowCwFvsWdAttGOQHMajP8cBpOhwB6OeT0pG+Vr9JhubHhmcNQYRLjT2rbgCOwDE4WyEx2hvOHC6iDBRgP9dyZNNKXXv1v0Yk0MRVLXHmaw1ytWA7YNWqFX58SXvtGSZhWcsuBfz3i0mUv7qOIceacRfjAB9qBtqbQJ8z+r2GlxEI+2XUSl+AZT/caYzlV1kEtgZ2JIXDcl4f74GAz3VGahI4X3D1seoNDF9Rktmz/HG6c7s3EYKWSm4K5FPSpt/Fy9LO9lpf58GBzM+XS2Mm6IlkTFoSnaIktfeM4voxnhu3Fcft0gITfblmg83VmXu+HhkSbTSJ22qo4uJE+zHf/cTGMJ8Ee1BFCEkEmTIxB+1tYj/Kwm4s3XpAGqBafMtE/U62LC4RNICw3Rq8ZcM6F5yeo6ccihqfF51V8RF+pMC0iBmQ3gZcVHnPBD+rYjgYGfElY0wDozAVOmv3gqstXVW4mRvz+sECECazaA/CiHQr5uOTbQP6gULpmny+kMta7neu+oshSZx4OwlXHFgyMOzjxvToXJ01GF5+usgkWAuCmBgHGYtl2UcmftbyA6dVprXesxa/Vutpodj0yITAPpvjRYqcSIyl1BIcAWyTOs90FEe3PvVbU/Xw=
